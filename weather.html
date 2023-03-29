@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <section class="weatherApp">
+    <div class="location">
+        <h3 id="city" style="font-size: 50px;">city name</h3>
+        <h5 id="country" style="font-size: 30px;">country name</h5>
+    </div>
+    <div class="information">
+        <div class="temp_information">
+            <h2 ><span id="temperature">0</span ><sup>o</sup>C</h2>
+        </div>
+        <div class="image">
+            <img src="bg.png" alt="">
+        </div>
+    </div>
+    
+    <div class="search">
+        <input id="user_input" type="text" placeholder="enter the city name">
+        <button onclick="search()">Search</button>
+    </div>
+</section>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+}
+.weatherApp{
+    background-image: url('thunderstorm-3625405_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.location{
+    text-align: right;
+    padding: 80px 150px 0px 0px;
+
+}
+.location h3, .location h5{
+    margin: 0px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    margin-top: 80px;
+}
+.temp_information h2{
+    font-size: 60px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input[type=text]{
+    height: 40px;
+    width: 200px;
+    transition: width 2s;
+}
+.search input[type=text]:hover{
+width: 310px;
+}
+.search button{
+    border: 0;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 0px 30px;
+}
